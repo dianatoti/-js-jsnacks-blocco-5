@@ -17,3 +17,10 @@ const mele = [
 ];
 
 // A partire dall'array fornito, crea due array. Uno con le mele di almeno 7 cm di diametro. L'altro con le restanti.
+
+const almeno7 = mele.filter(mela => mela.diametro >= 7);
+console.log(almeno7);
+
+const sotto7 = mele.filter(mela => mela.diametro <= 7);
+console.log(sotto7);
+
